@@ -13,7 +13,7 @@ namespace Listings
 
         }
 
-        static async Task WriteBytesAsync(string nomeArquivo, byte[] items)
+        static async Task GravarBytesAsync(string nomeArquivo, byte[] items)
         {
             using (FileStream fluxoSaida = new FileStream(nomeArquivo, FileMode.OpenOrCreate, FileAccess.Write))
             {

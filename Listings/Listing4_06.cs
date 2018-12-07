@@ -14,10 +14,10 @@ namespace Listings
                 string conteudo = File.ReadAllText(path: "Arquivo.txt");
                 Console.WriteLine(conteudo);
             }
-            catch (FileNotFoundException notFoundEx)
+            catch (FileNotFoundException ex)
             {
                 // Arquivo não encontrado
-                Console.WriteLine(notFoundEx.Message);
+                Console.WriteLine(ex.Message);
             }
             catch (Exception ex)
             {

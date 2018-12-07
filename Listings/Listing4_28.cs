@@ -7,7 +7,7 @@ namespace Listings
 {
     class Listing4_28 //Web Service
     {
-        static void Main(string[] args)
+        static void XMain(string[] args)
         {
             using (MeuServicoClient servicoClient = new MeuServicoClient())
             {

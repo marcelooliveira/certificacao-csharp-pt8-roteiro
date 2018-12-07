@@ -14,7 +14,7 @@ namespace Listings
             try
             {
                 // nome do arquivo com caractere inválido ">"
-                await WriteBytesAsync("destino>.dat", dados);
+                await GravarBytesAsync("destino>.dat", dados);
             }
             catch (Exception writeException)
             {
@@ -23,7 +23,7 @@ namespace Listings
             }
         }
 
-        static async Task WriteBytesAsync(string nomeArquivo, byte[] items)
+        static async Task GravarBytesAsync(string nomeArquivo, byte[] items)
         {
             using (FileStream fluxoSaida = new FileStream(nomeArquivo, FileMode.OpenOrCreate, FileAccess.Write))
             {

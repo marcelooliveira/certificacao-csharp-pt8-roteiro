@@ -7,7 +7,7 @@ namespace Listings
 {
     class Listing4_07 //Drive information
     {
-        static void XMain(string[] args)
+        static void Main(string[] args)
         {
             DriveInfo[] drives = DriveInfo.GetDrives();
             foreach (DriveInfo drive in drives)
