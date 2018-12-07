@@ -70,10 +70,6 @@ para criar automaticamente valores de ID Quando uma nova entrada do MusicTrack
 
 ### TABELA 4-1 Tabela MusicTrack
 
-ID Artist Title Length
-1 Rob Miles My Way 150
-2 Fred Bloggs His Way 150
-3 The Bloggs Singers Their Way 200
 
 De um ponto de design de dados de Exibir uma tabela em um banco de dados pode ser
 considerado como uma coleção de objetos. Em outras palavras, a tabela em
@@ -318,7 +314,7 @@ while (await reader.ReadAsync())
 O primeiro comando SQL selecionou todos os elementos em uma tabela.
 Você pode mudar isso para poder filtrar o conteúdo do
 tabela usando uma consulta. A Listagem 4—20 mostra uma consulta que seleciona apenas
-faixas de música do artista "Rob Miles".
+faixas de música do artista
 
 ### LISTAGEM 4-20 Filtrar com SQL
 
@@ -336,7 +332,7 @@ porque não há dois elementos com o mesmo ID. Se o ONDE
 composição do comando selecionou múltiplas entradas no
 banco de dados, todos eles seriam atualizados.
 
-ATUALIZAR. MusicTrack SET Artista: 'Robert Miles' WHERE ID = '
+ATUALIZAR. MusicTrack SET Artista: 'xxx' WHERE ID = '
 Quando a atualização é realizada, é possível determinar como
 muitos elementos são atualizados. O programa na listagem 4-21 mostra
 como isso é feito.
@@ -679,7 +675,7 @@ Type:XmlDeclaration Namezxml Valua:version="l.0" encoding="utf—l6"
 Typezilement NamezMusicTrack Value:
 Type:White3pace Name: Value:
 Type:Element Namezrtist Value:
-Type:Text Name: ValuezRob Miles
+Type:Text Name: Valuez
 Type:2ndElement NamazArtist Value:
 Type:Whitespace Name: Value:
 Type:Element Namezfitla Value:
