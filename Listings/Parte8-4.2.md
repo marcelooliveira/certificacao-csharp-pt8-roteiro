@@ -18,7 +18,7 @@ Esta seção aborda como:
 Eu Consumo J SON e dados XML I
 Recuperar dados usando serviços da web
 Recuperar dados de um banco de dados
-Na Habilidade 3.2, no “Use o Entity Framework para projetar seu
+Na Habilidade 3.2, no "Use o Entity Framework para projetar seu
 armazenamento de dados ”você viu como usar um projeto baseado em classe para
 expressar as necessidades de armazenamento de dados de um aplicativo para armazenar
 informações sobre faixas de música. Nós projetamos uma classe chamada
@@ -185,7 +185,7 @@ static void Main(string[] args)
 
 A string de conexão no programa faz uma comi-
 o banco de dados MusicTracks. Note que é importante que o
-A string de conexão não é “hard mired” no código-fonte do programa.
+A string de conexão não é "hard mired” no código-fonte do programa.
 O programa na Listagem 4-19 é apenas um exemplo, não como você
 deve criar código de produção. Qualquer um que obtenha a fonte
 código deste programa pode visualizar a string de conexão e obter
@@ -532,7 +532,7 @@ cada um em uso.
 
 Consumir dados JSON
 
-Na Skill 3.1 na seção “Using J SON”, você viu que J SON
+Na Skill 3.1 na seção "Using J SON”, você viu que J SON
 (JavaScript Object Notation) é um meio pelo qual as aplicações
 pode trocar dados. Um documento J SON é um arquivo de texto simples que
 contém uma coleção estruturada de pares de nome e valor. Você
@@ -596,7 +596,7 @@ api_key=DEMC_KZY&date=2 0 18—0 5-2 9 ") ;
 
 if (imageOfDay.media_type != "image")
 {
-Messagec.Show(“It is not an image today"
+Messagec.Show("It is not an image today"
 ) ;
 return;
 }
@@ -622,7 +622,7 @@ A figura 4-10 mostra a saída do programa.
 
 ### Consumir dados XML
 
-Na Skill 3.1, na seção “JSON e XML”, exploramos o
+Na Skill 3.1, na seção "JSON e XML”, exploramos o
 diferença entre J SON e XML. A linguagem XML é
 ligeiramente mais expressivo que J SON, mas documentos XML são
 maior do que o equivalente J SON documentos e isso, juntamente com o
@@ -813,10 +813,10 @@ métodos no serviço e ver os resultados que eles retornam. Figura
 o método Com um parâmetro de 1.
 
 GI t Yen cum: - D X
-E“! 100“ 311'
+E"! 100" 311'
 eBl-yScnte Pm ‘ MM:
 8 ’6 WIIWSUMWWMIM
-$12 Wcmmtc [mmsh‘ aw.“
+$12 Wcmmtc [mmsh‘ aw."
 i 42’ 2:33am!) Mme Vabe Type
 "0 Cody m )ckgrmh I 5911t
 Ramme- D Mammary [E

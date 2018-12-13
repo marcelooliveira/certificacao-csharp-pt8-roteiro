@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Ex01.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Diretores.txt" />
   </ItemGroup>
 
@@ -19,6 +23,10 @@
   <ItemGroup>
     <Content Include="..\cassette.png" Link="cassette.png" />
     <Content Include="..\cassette2.png" Link="cassette2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Ex01.cs" />
   </ItemGroup>
 
   <ItemGroup>
