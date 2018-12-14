@@ -12,8 +12,8 @@ namespace Listings
         public Task<byte[]> SendMessage(string url, int intA, int intB)
         {
             var client = new WebClient();
-            //var nvc = new NameValueCollection { { "a", intA.ToString() }, { "b", intB.ToString() } };
-            //return client.UploadValuesTaskAsync(new Uri(url), nvc);
+            var nvc = new NameValueCollection { { "a", intA.ToString() }, { "b", intB.ToString() } };
+            return client.UploadValuesTaskAsync(new Uri(url), nvc);
 
             //var data = string.Format("a={0}&b={1}", intA, intB);
             //return client.UploadDataTaskAsync(new Uri(url), Encoding.UTF8.GetBytes(data));
