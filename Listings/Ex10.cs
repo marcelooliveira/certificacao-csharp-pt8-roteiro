@@ -21,7 +21,7 @@ namespace Listings
                 byte[] body = new byte[fsSource.Length - 20];
 
                 fsSource.Read(header, 0, header.Length);
-                fsHeader.Write(body, 0, body.Length);
+                fsHeader.Write(header, 0, body.Length);
 
                 fsSource.Read(body, 0, body.Length);
                 fsBody.Write(body, 0, body.Length);

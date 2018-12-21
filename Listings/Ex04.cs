@@ -35,6 +35,8 @@ namespace Listings
 
         private bool WriteObject(Location location, DataContractJsonSerializer dataContractJsonSerializer)
         {
+            DataContractJsonSerializer x
+
             throw new NotImplementedException();
         }
     }
